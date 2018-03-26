@@ -68,6 +68,13 @@ export default {
 
   projects: [
     {
+      key: "personalWebsite",
+      title: "Personal Website (React.js, Gatsby.js)",
+      url: "https://quangtn0018.github.io",
+      description:
+        "Personal website created to showcase my love for creating user interfaces"
+    },
+    {
       key: "animalCollector",
       title: "AnimalCollector (Swift, Firebase, iOS)",
       url: "https://github.com/quangtn0018/AnimalCollector",
@@ -76,7 +83,7 @@ export default {
     },
     {
       key: "pokedex",
-      title: "Pokedex (Vue.js, Quasar, Express,js)",
+      title: "Pokedex (Vue.js, Quasar Framework, Express.js)",
       url: "https://github.com/quangtn0018/pokedex",
       description:
         "Pokedex using Vue.js, Quasar Framework, Express.js and data from pokeapi"
