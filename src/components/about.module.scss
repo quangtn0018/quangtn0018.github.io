@@ -1,0 +1,9 @@
+@import "../styles/globals.scss";
+
+.aboutContainer {
+  padding: 20px;
+}
+
+.aboutDescription {
+  max-width: $cardMinWidth;
+}

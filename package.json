@@ -1,0 +1,21 @@
+{
+  "name": "quangtn0018.github.io",
+  "description": "porfolio website",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "deploy": "gatsby build && gh-pages -d public -b master"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.238",
+    "gatsby-link": "^1.6.39",
+    "gatsby-plugin-sass": "^1.0.24",
+    "gatsby-plugin-typography": "^1.7.18",
+    "typography-theme-alton": "^0.15.10"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
