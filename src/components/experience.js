@@ -3,11 +3,10 @@ import experienceStyles from "./experience.module.scss";
 import { projects } from "../constants";
 
 export default () => (
-  <div>
+  <div className={experienceStyles.experienceContainer}>
     <h1>Work Experience/Projects</h1>
-    <div className={experienceStyles.projectsContainer}>
+    <div>
       {projects.map(project => {
-        // TODO needs styling
         return (
           <div key={project.key} className={experienceStyles.projects}>
             <h2>

@@ -1,9 +1,15 @@
 @import "../styles/globals.scss";
 
-.projectsContainer {
+.experienceContainer {
   padding: 20px;
 }
 
 .projects {
-  max-width: $cardMinWidth;
+  max-width: calc(#{$cardMinWidth} + 65px);
+}
+
+@media only screen and (max-width: $break-small) {
+  .projects {
+    max-width: 320px;
+  }
 }

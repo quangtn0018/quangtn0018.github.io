@@ -11,6 +11,11 @@
   opacity: 0.95;
   border-radius: 4px;
   text-align: center;
-  padding: 10px 0;
   min-width: $cardMinWidth;
+}
+
+@media only screen and (max-width: $break-small) {
+  .card {
+    min-width: 320px;
+  }
 }

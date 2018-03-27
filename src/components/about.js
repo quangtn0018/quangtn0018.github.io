@@ -2,10 +2,9 @@ import React from "react";
 import aboutStyles from "./about.module.scss";
 
 export default () => (
-  <div>
+  <div className={aboutStyles.aboutContainer}>
     <h1>About</h1>
-    <div className={aboutStyles.aboutContainer}>
-      {/* TODO needs styling */}
+    <div>
       <p className={aboutStyles.aboutDescription}>
         I'm a full stack web developer living in the Bay Area! On my free time,
         I blog on{" "}

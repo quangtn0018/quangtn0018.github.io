@@ -1,16 +1,17 @@
+@import "../styles/globals.scss";
 @import "../styles/palette.scss";
 
 .navHeaderContainer {
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
 }
 
 .ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  min-width: 450px;
+  min-width: calc(#{$cardMinWidth} - 200px);
+  margin: 0;
 }
 
 .icon {

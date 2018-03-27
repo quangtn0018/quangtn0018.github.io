@@ -7,3 +7,9 @@
 .aboutDescription {
   max-width: $cardMinWidth;
 }
+
+@media only screen and (max-width: $break-small) {
+  .aboutDescription {
+    max-width: 320px;
+  }
+}
