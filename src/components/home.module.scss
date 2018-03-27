@@ -5,7 +5,7 @@
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-  padding: 15px 60px 60px 60px;
+  padding: 15px 15px 60px 15px;
   margin: 0;
 }
 
@@ -59,10 +59,6 @@
 }
 
 @media only screen and (max-width: $break-small) {
-  .ul {
-    padding: 15px 15px 60px 15px;
-  }
-
   .name,
   .jobTitle {
     letter-spacing: 2px;
