@@ -4,7 +4,7 @@ import { projects } from "../constants";
 
 export default () => (
   <div className={experienceStyles.experienceContainer}>
-    <h1>Work Experience/Projects</h1>
+    <h1>Portfolio</h1>
     <div>
       {projects.map(project => {
         return (

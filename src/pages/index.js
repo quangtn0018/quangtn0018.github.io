@@ -60,7 +60,7 @@ export default class App extends React.Component {
         navItems = navItems.map(item => {
           return {
             ...item,
-            isSelected: item.key === "work experience/projects"
+            isSelected: item.key === "portfolio"
           };
         });
     }

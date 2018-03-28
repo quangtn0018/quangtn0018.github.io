@@ -60,7 +60,7 @@ export default {
       isSelected: false
     },
     {
-      key: "work experience/projects",
+      key: "portfolio",
       tag: FileCodeIcon,
       isSelected: false
     }
