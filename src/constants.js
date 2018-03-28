@@ -72,7 +72,7 @@ export default {
       title: "Personal Website (React.js, Gatsby.js)",
       url: "https://quangtn0018.github.io",
       description:
-        "Personal website created to showcase my love for creating user interfaces"
+        "Personal website created to showcase what I can do and what I've made"
     },
     {
       key: "animalCollector",
@@ -84,9 +84,9 @@ export default {
     {
       key: "pokedex",
       title: "Pokedex (Vue.js, Quasar Framework, Express.js)",
-      url: "https://github.com/quangtn0018/pokedex",
+      url: "https://quangtn0018-pokedex.herokuapp.com/#/",
       description:
-        "Pokedex using Vue.js, Quasar Framework, Express.js and data from pokeapi"
+        "Pokedex using Vue.js, Quasar Framework, Express.js and data from pokeapi. Deployed and hosted on Heroku"
     },
     {
       key: "courseRecommender",
