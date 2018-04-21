@@ -79,7 +79,7 @@ export default {
       title: "AnimalCollector (Swift, Firebase, iOS)",
       url: "https://github.com/quangtn0018/AnimalCollector",
       description:
-        "This app let users take pictures of animals, compete with friends or other players to see who can collect the most animals and earn the highest scores. I learned Swift, using Xcode for iOS development. In addition, I gained an understanding of creating and using different types of view controllers, navigation bar , and Google's Firebase NOSQL database. I used CRUD operations with firebase database, stored images into firebase storage, fetch images and cache using SDWebImage API and a implemented a chatting system."
+        "This app let users take pictures of animals, compete with friends or other players to see who can collect the most animals and earn the highest scores. I learned Swift, using Xcode for iOS development. In addition, I gained an understanding of creating and using different types of view controllers, navigation bar , and Google's Firebase NOSQL database. I used CRUD operations with firebase database, stored images into firebase storage, fetch images and cache using SDWebImage API and a implemented a chatting system. I incorporated CoreML functionality and a predefined model to determine the animals from captured images."
     },
     {
       key: "pokedex",
