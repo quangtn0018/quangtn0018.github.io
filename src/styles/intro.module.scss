@@ -1,0 +1,132 @@
+@import "globals.scss";
+@import "palette.scss";
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.socialMedia {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  font-size: 20px;
+  max-width: 500px;
+}
+
+.appear {
+  visibility: visible;
+}
+
+.disappear {
+  visibility: hidden;
+}
+
+.introEnter {
+  opacity: 0.01;
+  transform: translate(0, 50px);
+}
+
+.introEnterActive {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 800ms ease-in;
+}
+
+.linkedinEnter {
+  opacity: 0.01;
+  transform: translate(-50px, 0);
+}
+
+.linkedinEnterActive {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 500ms ease-in;
+}
+
+.linkedinExit {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 500ms ease-in;
+}
+
+.linkedinExitActive {
+  opacity: 0.01;
+  transform: translate(-50px, 0);
+}
+
+.githubEnter {
+  opacity: 0.01;
+  transform: translate(0, 50px);
+}
+
+.githubEnterActive {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 650ms ease-in;
+}
+
+.githubExit {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 500ms ease-in;
+}
+
+.githubExitActive {
+  opacity: 0.01;
+  transform: translate(0, 50px);
+}
+
+.mediumEnter {
+  opacity: 0.01;
+  transform: translate(0, 50px);
+}
+
+.mediumEnterActive {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 800ms ease-in;
+}
+
+.mediumExit {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 500ms ease-in;
+}
+
+.mediumExitActive {
+  opacity: 0.01;
+  transform: translate(0, 50px);
+}
+
+.emailEnter {
+  opacity: 0.01;
+  transform: translate(0, 50px);
+}
+
+.emailEnterActive {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 960ms ease-in;
+}
+
+.emailExit {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 500ms ease-in;
+}
+
+.emailExitActive {
+  opacity: 0.01;
+  transform: translate(0, 50px);
+}
+
+@media only screen and (max-width: $break-small) {
+  .socialMedia {
+    flex-direction: column;
+    max-height: none;
+  }
+}

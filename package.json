@@ -13,6 +13,7 @@
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-sass": "^1.0.24",
     "gatsby-plugin-typography": "^1.7.18",
+    "react-transition-group": "^2.5.3",
     "typography-theme-alton": "^0.15.10"
   },
   "devDependencies": {

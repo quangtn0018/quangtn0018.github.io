@@ -1,15 +1,24 @@
 import React from "react";
-import Home from "./home";
-import About from "./about";
-import Experience from "./experience";
-import cardStyles from "./card.module.scss";
+import cardStyles from "../styles/card.module.scss";
+import { projects } from "../constants";
 
-export default ({ cardToRender }) => (
+export default () => (
   <section className={cardStyles.cardContainer}>
-    <div className={cardStyles.card}>
-      {!cardToRender.isHome && !cardToRender.isAbout && <Experience />}
-      {cardToRender.isHome && <Home />}
-      {cardToRender.isAbout && <About />}
-    </div>
+    {projects.map(project => {
+      return (
+        <a
+          key={project.key}
+          target="_blank"
+          href={project.url}
+          className={cardStyles.card}
+        >
+          <h2>{project.title}</h2>
+          <p>{project.description}</p>
+          <div className={cardStyles.overlay}>
+            <div className={cardStyles.text}>{project.followLinkText}</div>
+          </div>
+        </a>
+      );
+    })}
   </section>
 );

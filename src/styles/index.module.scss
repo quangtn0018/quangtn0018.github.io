@@ -1,0 +1,58 @@
+@import "globals.scss";
+@import "palette.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: $greyColor1;
+  font-family: "raleway", sans-serif;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  line-height: 35px;
+}
+
+.underline {
+  position: relative;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: black;
+    height: 1px;
+    transition: right 0.3s;
+  }
+
+  &:hover,
+  &:focus {
+    @extend .underlineActive;
+  }
+}
+
+.underlineActive {
+  &:before {
+    right: 0;
+  }
+}
+
+a,
+span {
+  color: black;
+}

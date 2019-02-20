@@ -1,5 +1,7 @@
 import React from "react";
-import footerStyles from "./footer.module.scss";
+import footerStyles from "../styles/footer.module.scss";
+import indexStyles from "../styles/index.module.scss";
+
 import { person } from "../constants";
 
 export default () => (
@@ -7,7 +9,7 @@ export default () => (
     <p>
       © 2018 by{" "}
       <a target="_blank" href="https://quangtn0018.github.io">
-        {person.name}
+        <span className={indexStyles.underline}>{person.name}</span>
       </a>
     </p>
   </footer>
