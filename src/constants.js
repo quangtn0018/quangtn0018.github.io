@@ -54,7 +54,7 @@ export default {
       key: "pokedex",
       title: "Pokedex (Vue.js, Quasar Framework, Express.js)",
       url: "https://quangtn0018-pokedex.herokuapp.com/#/",
-      followLinkText: "Check out the source code on GitHub!",
+      followLinkText: "Check out the Pokedex hosted on Heroku!",
       description:
         "I created this app to learn Vue.js along with Quasar Framework for responsiveness UI and reusable components. Utilized pokeapi to make restful API calls for Pokemon API data with express.js for backend using async and await. I also learned how to host my first web app on heroku."
     },
