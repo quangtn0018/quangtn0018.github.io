@@ -9,12 +9,8 @@ export default class Card extends React.Component {
 
   render() {
     return (
-      <section className={cardStyles.cardContainer}>
-        <a
-          target="_blank"
-          href={this.props.project.url}
-          className={cardStyles.card}
-        >
+      <div className={cardStyles.card}>
+        <a target="_blank" href={this.props.project.url}>
           <h2>{this.props.project.title}</h2>
           <p>{this.props.project.description}</p>
           <div className={cardStyles.overlay}>
@@ -23,7 +19,7 @@ export default class Card extends React.Component {
             </div>
           </div>
         </a>
-      </section>
+      </div>
     );
   }
 }

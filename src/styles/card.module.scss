@@ -1,14 +1,6 @@
 @import "globals.scss";
 @import "palette.scss";
 
-.cardContainer {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
-  justify-content: space-between;
-}
-
 .card {
   position: relative;
   background: $orangeColor1;

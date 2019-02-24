@@ -7,8 +7,10 @@ import Card from "./card";
 export default () => (
   <div className={experienceStyles.experienceContainer}>
     <h1>Portfolio</h1>
-    {projects.map(project => (
-      <Card key={project.key} project={project} />
-    ))}
+    <div className={experienceStyles.cardContainer}>
+      {projects.map(project => (
+        <Card key={project.key} project={project} />
+      ))}
+    </div>
   </div>
 );
